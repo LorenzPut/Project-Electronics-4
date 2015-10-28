@@ -1,0 +1,2 @@
+5cm afstand : 720
+10cm afstand : 600

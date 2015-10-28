@@ -1,0 +1,8 @@
+Motor	KEYWORD1
+Forward	KEYWORD2
+TurnLeft	KEYWORD2
+TurnRight	KEYWORD2
+BackWards	KEYWORD2
+QuarterLeft	KEYWORD2
+QuarterRight 	KEYWORD2
+Stop	KEYWORD2

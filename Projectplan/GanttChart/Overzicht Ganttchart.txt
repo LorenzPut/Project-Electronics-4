@@ -1,0 +1,25 @@
+ALGEMEEN:
+- opstellen projectplan
+- presentatie projectplan
+- verbeteren projectplan
+- eindverslag
+- eindpresentatie
+HW: 
+- desolderen componenten matrixboard 
+- bestukken componenten op PCB
+- PCB combineren met arduino
+- testen PCB
+- aansluiten sensoren
+SW scenario's:
+- uitlezen van sensoren
+- sensordata combineren met sturing auto
+- level 1
+-- auto laten draaien na bepaalde tijd 
+- level 2
+-- detectie objecten
+-- reactie bij detectie objecten
+- extra : level 3
+-- extra sensor ? (lichtsensor, hall ??)
+
+
+

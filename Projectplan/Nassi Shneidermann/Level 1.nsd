@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;LEVEL 1&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Variables:&#34;,&#34;	sFront = sensor voor&#34;,&#34;	sLeft = sensor links&#34;,&#34;	sRight = sensor rechts&#34;,&#34;	sBack = sensor achter&#34;,&#34;	corner = iterator&#34;" comment="" color="c0c0c0" rotated="0"></instruction>
+		<while text="&#34;while (!sFront)&#34;" comment="" color="0080ff">
+			<qWhile>
+				<alternative text="&#34;if (sFront)&#34;" comment="" color="80ffff">
+					<qTrue>
+						<instruction text="&#34;Go right&#34;,&#34;End Loop&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Go straight&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qWhile>
+		</while>
+		<while text="&#34;while (sFront != 'bridge-distance')&#34;" comment="" color="0080ff">
+			<qWhile>
+				<alternative text="&#34;if (sFront == 'bridge-distance')&#34;" comment="" color="80ffff">
+					<qTrue>
+						<instruction text="&#34;Go straight&#34;,&#34;End loop&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Go straight&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qWhile>
+		</while>
+		<while text="&#34;while (!sFront)&#34;" comment="" color="0080ff">
+			<qWhile>
+				<alternative text="&#34;if (sFront)&#34;" comment="" color="80ffff">
+					<qTrue>
+						<instruction text="&#34;Go left&#34;" comment="" color="ffffff" rotated="0"></instruction>
+						<alternative text="&#34;if (sFront)&#34;" comment="" color="80ffff">
+							<qTrue>
+								<instruction text="&#34;Go left&#34;,&#34;End loop&#34;" comment="" color="ffffff" rotated="0"></instruction>
+							</qTrue>
+							<qFalse>
+								<instruction text="&#34;Go straight&#34;" comment="" color="ffffff" rotated="0"></instruction>
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Go straight&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qWhile>
+		</while>
+		<while text="&#34;while (!sFront)&#34;" comment="&#34;&#34;" color="0080ff">
+			<qWhile>
+				<alternative text="&#34;if (sFront)&#34;" comment="&#34;&#34;" color="80ffff">
+					<qTrue>
+						<instruction text="&#34;Go right&#34;,&#34;End loop&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Go straight&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qWhile>
+		</while>
+		<instruction text="&#34;FINISH - end route&#34;" comment="&#34;&#34;" color="80ff80" rotated="0"></instruction>
+	</children>
+</root>

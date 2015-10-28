@@ -1,0 +1,25 @@
+ALGEMEEN:
+- opstellen projectplan (samen)
+- presentatie projectplan (samen)
+- verbeteren projectplan (samen)
+- eindverslag (samen)
+- eindpresentatie (samen)
+HW: (coordinator : Michiel)
+- desolderen componenten matrixboard (Michiel)
+- bestukken componenten op PCB (Michiel)
+- PCB combineren met arduino (Michiel)
+- testen PCB (Michiel)
+- aansluiten sensoren (Lorenz)
+SW scenario's: (coordinator : Lorenz)
+- uitlezen van sensoren (Lorenz)
+- sensordata combineren met sturing auto (Lorenz
+- level 1 (samen)
+-- auto laten draaien na bepaalde tijd 
+- level 2 (samen)
+-- detectie objecten
+-- reactie bij detectie objecten
+- extra : level 3 (samen)
+-- extra sensor ? (lichtsensor, hall ??)
+
+
+

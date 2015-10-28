@@ -1,0 +1,3 @@
+Infraroodsensor	KEYWORD1
+ReadVoltage	KEYWORD2
+Calculate	KEYWORD2

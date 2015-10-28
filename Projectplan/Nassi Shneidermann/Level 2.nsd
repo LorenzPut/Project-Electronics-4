@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;LEVEL 2&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<for text="" comment="" color="0080ff">
+			<qFor>
+				<alternative text="&#34;if (sFront)&#34;" comment="&#34;&#34;" color="80ffff">
+					<qTrue>
+						<alternative text="&#34;if (sRight)&#34;" comment="&#34;&#34;" color="80ffff">
+							<qTrue>
+								<instruction text="&#34;Go left&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qTrue>
+							<qFalse>
+								<instruction text="&#34;Go right&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qFalse>
+						</alternative>
+						<alternative text="&#34;if (sLeft)&#34;" comment="&#34;&#34;" color="80ffff">
+							<qTrue>
+								<instruction text="&#34;Go right&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qTrue>
+							<qFalse>
+								<instruction text="&#34;Go right&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qFalse>
+						</alternative>
+						<alternative text="&#34;if (sRight &amp;&amp; sLeft)&#34;" comment="&#34;&#34;" color="80ffff">
+							<qTrue>
+								<instruction text="&#34;Go back&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qTrue>
+							<qFalse>
+								<instruction text="&#34;go right&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Go straight&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qFor>
+		</for>
+	</children>
+</root>
